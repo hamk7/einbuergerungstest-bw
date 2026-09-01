@@ -1,23 +1,20 @@
-EINBÜRGERUNGSTEST BW – VERSION 3.2
+EINBÜRGERUNGSTEST BW – VERSION 3.3
 
-Druckverlauf:
-- Jeder neu erzeugte Papierbogen wird mit seinen exakten 33 Katalogfragen gespeichert.
-- Statistik > Druckverlauf:
-  - exakt denselben Test digital als Prüfung wiederholen
-  - genau diese 33 Fragen als Lernset öffnen
-  - denselben Bogen erneut öffnen / drucken
+Wesentliche Änderungen:
+- 310/310 türkische Fragen direkt in index.html eingebettet.
+- 1.240/1.240 türkische Antwortmöglichkeiten direkt eingebettet.
+- Für alle 310 Fragen ist eine lokale türkische Lern-Erklärung vorhanden.
+- DDR und deutsche Eigennamen/Abkürzungen werden bewusst beibehalten.
+- Keine externe Übersetzungsdatei wird beim Start mehr geladen.
+- Erklärung erscheint nur auf ausdrückliches Antippen.
+- Lern-Fortschrittsleiste im Fragefenster entfernt.
+- Lernfilter verwenden Statusfarben.
+- Bearbeitet = Blau; Neu/Offen = neutral/grau.
+- Optionale BAMF-nahe Muster-Test-Schrift im Menü.
+- Prüfungs-/Druckverlauf nummeriert z. B. „1. Prüfung“; Datum TT.MM.JJJJ.
+- Manifest + Service Worker sind wieder vollständig im ZIP enthalten.
+- Bestehende Fortschritts-Schlüssel bleiben unverändert.
 
-QR-Code auf Papier:
-- Kleiner QR-Code auf der ersten Seite.
-- Kompletter Bogen: unten rechts auf dem Deckblatt.
-- „Nur Fragen“: auf der ersten Fragenseite.
-- Der QR-Link enthält die 33 Katalogfragen direkt.
-- Dadurch funktioniert der QR-Code auch auf einem anderen Gerät ohne Konto oder Datenbank.
-- Nach dem Scan:
-  - Digital als Prüfung
-  - Diese 33 Fragen lernen
-- Die digitale Prüfung verwendet exakt dieselben 33 Fragen in derselben Reihenfolge.
-
-Technik:
-- QR-Code wird im Browser mit QRCode.js erzeugt.
-- Bestehender Fortschritt, Sterne, Filter, Dark Mode und Prüfungsverlauf bleiben kompatibel.
+NETLIFY:
+Den INHALT dieses Ordners auf dieselbe bestehende Netlify-Site deployen.
+Vor einem Entfernen/Neu-Anlegen der iPhone-Home-Screen-App Fortschritt exportieren.
